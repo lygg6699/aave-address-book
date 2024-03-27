@@ -22,8 +22,8 @@
       "description": "Tokens that are wrapped into a 4626 Vault"
     }
   },
-  "timestamp": "2024-02-27T22:04:24.444Z",
-  "version": { "major": 3, "minor": 0, "patch": 8 },
+  "timestamp": "2024-03-19T00:37:30.042Z",
+  "version": { "major": 3, "minor": 0, "patch": 9 },
   "tokens": [
     {
       "chainId": 1,
@@ -3881,8 +3881,7 @@
       "name": "agEUR",
       "decimals": 18,
       "symbol": "agEUR",
-      "tags": ["underlying"],
-      "logoURI": "ipfs://QmS8gdLAHvXQMDyjZmpK8Ex9fPXX3xb2sMtuHgnNMrTo52"
+      "tags": ["underlying"]
     },
     {
       "chainId": 137,
@@ -3891,7 +3890,6 @@
       "decimals": 18,
       "symbol": "aPolAGEUR",
       "tags": ["aTokenV3", "aaveV3"],
-      "logoURI": "ipfs://QmR8p1PkNMgVcTRXFg94iZuJ4Lk5NvbqavJ2aNZfxP8PLB",
       "extensions": {
         "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
         "underlying": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
@@ -3904,7 +3902,6 @@
       "decimals": 18,
       "symbol": "stataPolAGEUR",
       "tags": ["aaveV3", "stataToken"],
-      "logoURI": "ipfs://Qmaz2g7Prwy5y21QFFVAQkjvV5XDTjBeLvMn5psLoWhtmn",
       "extensions": {
         "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
         "underlying": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
@@ -4075,6 +4072,20 @@
       "extensions": {
         "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
         "underlying": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      }
+    },
+    {
+      "chainId": 137,
+      "address": "0x2dCa80061632f3F87c9cA28364d1d0c30cD79a19",
+      "name": "Static Aave Polygon USDCn",
+      "decimals": 6,
+      "symbol": "stataPolUSDCn",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "ipfs://QmRSVBEwfG2v5jV9aR8B9h2MjSig8MpqE2JuqtF1UmA9pP",
+      "extensions": {
+        "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+        "underlying": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+        "underlyingAToken": "0xA4D94019934D8333Ef880ABFFbF2FDd611C762BD"
       }
     },
     {
@@ -7094,6 +7105,20 @@
       "extensions": {
         "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
         "underlying": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x4DD03dfD36548C840B563745e3FBeC320F37BA7e",
+      "name": "Static Aave Optimism USDCn",
+      "decimals": 6,
+      "symbol": "stataOptUSDCn",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "ipfs://QmRSVBEwfG2v5jV9aR8B9h2MjSig8MpqE2JuqtF1UmA9pP",
+      "extensions": {
+        "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+        "underlying": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+        "underlyingAToken": "0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5"
       }
     },
     {
